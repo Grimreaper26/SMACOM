@@ -1,0 +1,63 @@
+h1 {
+    font-size: 34px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+.card-body-service {
+    background-color: #3538CD;
+}
+
+.container-service {
+    background-color: #3538CD;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.text-block {
+    max-width: 50%;
+}
+
+.image-block {
+    max-width: 40%;
+}
+
+.image-block img {
+    width: 100%;
+}
+
+.learn-more-button {
+    margin-top: 10px;
+}
+
+.image-size {
+    max-width: 40%;
+}
+
+
+.card_preview-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card_preview-text {
+        -webkit-line-clamp: 3;
+        /* Display 5 lines instead of 3 for tablets */
+    }
+}
